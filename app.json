@@ -1,0 +1,7 @@
+{
+  "name": "ekonsite",
+  "description": "My Website",
+  "repository": "https://github.com/ShiroTeky/ekonsite.git",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
