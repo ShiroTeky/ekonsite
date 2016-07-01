@@ -6,15 +6,15 @@ block content
     section.contact
       div
         section.col-lg-6
-          form.form-group(role='form')
+          form.form-group(role='form', method='post', action='/contact')
             fieldset
               span.label.label-default Votre nom
-              input.form-control(type='text', placeholder='Votre nom ici')
+              input.form-control(type='text', name='name',id='name', placeholder='Votre nom ici')
               span.label.label-default votre Email
-              input.form-control(type='email', placeholder='Votre email ici')
+              input.form-control(type='email', name='email',id='email', placeholder='Votre email ici')
               label(for='textarea') Votre message :
-              textarea#textarea.form-control(rows='4')
-              a(href='#', style='display: inline-block;background: #0c3464;color: #fff;padding: 8px 15px;text-decoration: none;') Envoyer
+              textarea.form-control(rows='4', name='textarea',id='textarea')
+              input(name='submit', type='submit',value='Envoyer', id='submit', style='display: inline-block;background: #0c3464;color: #fff;padding: 8px 15px;text-decoration: none;')
         aside.col-lg-6
           h2 Informations pratiques
           p
