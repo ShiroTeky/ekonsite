@@ -903,3 +903,4 @@ border-bottom: none;
     border-left-style:ridge;
     border-left-color:#464646;
 }
+#map { height: 300px; }
