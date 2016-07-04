@@ -11,8 +11,8 @@ html
     link(rel='stylesheet' type='text/css' href='/stylesheets/css/complement.css')
     link(rel='stylesheet' href='/stylesheets/css/flexslider.css' type='text/css' media='screen')
     script(src='/javascripts/modernizr-2.6.2.js')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+    script(src='/javascripts/jquery-1.10.2.min.js')
+    script(src='/javascripts/bootstrap.min.js')
  body
     .container
       header
@@ -56,7 +56,8 @@ html
               span.icon-bar
               span.icon-bar
               span.icon-bar
-            img.navbar-brand(src='./images/home.png', alt='#')
+            a(href='/')    
+              img.navbar-brand(src='./images/home.png', alt='#')
           .collapse.navbar-collapse
             ul.nav.navbar-nav
               li

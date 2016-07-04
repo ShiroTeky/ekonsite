@@ -183,8 +183,15 @@ font-family: Dotum;
 
 }
 
+.about-offre{
+    bottom:0px;
+    margin-left:0px;
+    color:#5a9bd5;
+    font-size: 21px;
+}
+
 /* login
-----------------------------------------------------------*/
+-------------s---------------------------------------------*/
 #login {
 display: block;
 font-size: .85em;
